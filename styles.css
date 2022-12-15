@@ -1,0 +1,67 @@
+.container {
+  background-color: rgb(234, 145, 145);
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 300px;
+  position: relative;
+  /*use this position with the absolute position inside div-2*/
+}
+
+.header {
+  background-color: #61dafb;
+  position: fixed;
+  top: 0;
+}
+
+.div-1 {
+  background-color: orange;
+}
+
+.div-2 {
+  background-color: mediumpurple;
+  position: relative;
+  left: 30px;
+  top: 30px;
+
+  /* position: absolute;
+  top: 30px;
+  left: 300px; */
+
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+}
+
+.div-0 {
+  background-color: mediumpurple;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.div-3 {
+  background-color: aquamarine;
+}
+
+.div-4 {
+  background-color: darkcyan;
+  /* position: fixed;
+  bottom: 30px;
+  right: 30px; */
+}
+
+.footer {
+  background-color: pink;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+footer {
+  background-color: rgb(21, 161, 72);
+  position: sticky;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
